@@ -1,0 +1,162 @@
+
+.navbar{
+  text-align: center;
+}
+.nav-link {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  background-color:darkmagenta;
+  color: #fff;
+} 
+.home{
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+  font-style: ;
+}
+.what {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+.color{
+  color: darkmagenta;
+  font-size: x-large;
+  font-weight: bold;
+}
+.about-button {
+  background-color: rgb(161, 127, 63); 
+  border: none; 
+  color: white; 
+  padding: 15px 32px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+  border-radius: 12px; 
+  box-shadow: 6px 5px 10px;
+  margin-bottom: 20px;
+ }
+ .image {
+ border-radius: 100%;
+ margin-left: 100%;
+ margin: 20px;
+ display: flex; 
+
+}
+.details {
+  display: flex;
+  justify-content: space-between;  
+  margin: 0 auto;
+  max-width: 800px;
+  
+}
+
+.image {
+  width: 400px;
+
+}
+.container{
+  background-color: black;
+}
+.hi{
+  font-size: x-large;
+}
+.links a {
+  color: white;
+}
+
+.color {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  animation: rainbow 5s infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+  20% {
+    color: orange;
+  }
+  40% {
+    color: yellow;
+  }
+  60% {
+    color: green;
+  }
+  80% {
+    color: blue;
+  }
+  100% {
+    color: violet;
+  }
+
+}
+/* .home h3 {
+  font-size: 1.5em;
+  color: #FF69B4;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  animation: wiggle 2s infinite;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(10deg);
+  }
+  40% {
+    transform: rotate(-10deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+} */
+
+.home h3 {
+  font-size: 2em;
+  font-weight: bold;
+  color:rgb(161, 127, 63);
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  animation: wiggle 2s infinite; 
+  opacity: 80%;
+}
+/* 
+.home h3:nth-of-type(1) {
+  color: darkmagenta;
+}
+
+.home h3:nth-of-type(2) {
+  color: #00BFFF;
+}
+
+.home h3:nth-of-type(3) {
+  color: orange;
+}
+
+.home h3:nth-of-type(4) {
+  color: #00BFFF;
+} */
+
+
+
